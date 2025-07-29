@@ -1,0 +1,32 @@
+checkpoints/*
+pretrain_model/*
+*.pyc
+
+# 预训练权重文件 (过大，不上传到GitHub)
+*.pth
+vim_t_midclstok_ft_78p3acc.pth
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 日志文件
+*.log
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 数据集文件夹
+datasets/
+data/
+
+# 临时文件
+*.tmp
+*.temp
+
+# Git相关
+.git/ 
