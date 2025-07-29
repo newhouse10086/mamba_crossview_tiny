@@ -20,8 +20,22 @@ __pycache__/
 *.swp
 *.swo
 
-# 数据集文件夹
-datasets/
+# 数据集实际文件 (排除大的数据集文件，但保留代码)
+datasets/**/*.jpg
+datasets/**/*.jpeg
+datasets/**/*.png
+datasets/**/*.bmp
+datasets/**/*.tiff
+datasets/**/*.npy
+datasets/**/*.npz
+datasets/**/*.h5
+datasets/**/*.hdf5
+datasets/**/*.mat
+datasets/**/*.txt
+datasets/**/*.json
+datasets/**/train/
+datasets/**/test/
+datasets/**/val/
 data/
 
 # 临时文件
